@@ -1,21 +1,26 @@
 public class Main {
     public static void main(String[] args) {
-        Character H1 = new Character("Tom","Carry");
-        Character H2 = new Character("Jerry","Warrior");
-        H1.equipSword("OOP");
-        H1.levelUp();
-        H1.equipRing("Boom");
-        H1.display();
-        H2.equipSword("Box");
-        H2.equipArmor("pop");
-        H2.levelUp();
-        H2.display();
-        H1.unequipRing();
-        H1.display();
-        H1.Sword_levelUp();
-        H2.equipShield("Dang");
-        H2.unequip();
-        H2.display();
+        Ring R = new Ring();
+        Armor A = new Armor();
+        Carry C = new Carry(1);
+        C.EquipAccessories(R);
 
+        Warrior W = new Warrior(1);
+        W.EquipAccessories(A);
+
+        C.display();
+        W.display();
+
+        W.levelUp();
+        W.display();
+
+        System.out.println("Battle!\n--------------------------");
+
+        C.attack(W);
+        W.attack(C);
+        C.attack(W);
+
+        C.display();
+        W.display();
     }
 }
