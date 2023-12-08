@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+|+RPG Character Interfaces                                           |
+|   1.Warrior Character                                              |
+|       *Propeties:                                                  |
+|           -Health Points (HP)                                      |
+|           -Attack Points (ATK)                                     |
+|           -Defense Points (DEF)                                    |
+|           -Level                                                   |
+|           -Job (e.g.,Warrior)                                      |
+|   2.Carry Character                                                |
+|       *Propeties:                                                  |
+|           -Health Points (HP)                                      |
+|           -Attack Points (ATK)                                     |
+|           -Defense Points (DEF)                                    |
+|           -Level                                                   |
+|           -Job (e.g.,Carry)                                        |
+----------------------------------------------------------------------
+|+Accessory Interfaces                                               |
+|   1.Ring Accessory                                                 |
+|       *Propeties:                                                  |
+|           -Type (e.g.,Ring)                                        |
+|           -Stat Buffs (e.g., +10 DEF)                              |
+|   2.Armor Accessory                                                |
+|       Propeties:                                                   |
+|           -Type (e.g.,Armor)                                       |
+|           -Stat Buffs (e.g.,+10 ATK)                               |
+----------------------------------------------------------------------
